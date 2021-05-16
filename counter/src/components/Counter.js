@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Counter() {
+class Counter extends Component {
+ render()
 
+ //reference count prop in button
     {
-        return <button>0</button>
+        return <button>{this.props.count}</button>
     }
 }
 

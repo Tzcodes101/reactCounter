@@ -3,9 +3,11 @@ import './App.css';
 import Counter from './components/Counter';
 
 function App() {
+
+  //set initial count prop to 5
   return (
   <div className="App">
-    <Counter />
+    <Counter count={5}/>
   </div>
   )
 }
